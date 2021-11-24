@@ -248,6 +248,22 @@
 <div class="copyrightText">
  <p> Copyright 2021 Logistic . All rights reserved</p>
 </div>
+<div class="chatBox_wrap">
+  <h1>Popup Chat Window Example</h1>
+<h2>Click the below button to start chatting</h2>
+<button class="openChatBtn" onclick="openForm()">Chat</button>
+<div class="openChat">
+<form class="chat_form">
+<h1>Chat</h1>
+<label for="msg"><b>Message</b></label>
+<textarea placeholder="Type message.." name="msg" required></textarea>
+<button type="submit" class="btn">Send</button>
+<button type="button" class="btn close" onclick="closeForm()">
+Close
+</button>
+</form>
+</div>
+</div>
     <script src="app.js"></script>
 </body>
 </html>
